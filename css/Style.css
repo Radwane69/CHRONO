@@ -1,41 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
+  margin: 0 auto;
+  background-color: black;
+  color: red;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+.horloge {
   text-align: center;
-  background: #2567EB;
-  font-family: sans-serif;
-  font-weight: 100;
 }
 
-h1 {
-  color: #E6FF00;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+.hourbottom,
+.minutebottom,
+.minutebottom2,
+.hourbottom2,
+.hourtop,
+.minutetop,
+.minutetop2,
+.hourtop2 {
+  padding: 50px;
+  border: solid black;
 }
 
-#décompte {
-  font-family: sans-serif;
-  color: black;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
+.time {
+  padding: 150px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#décompte>div {
-  padding: 10px;
-  border-radius: 3px;
-  background: #E6FF00;
-  display: inline-block;
+.nine {
+  margin: 15px;
 }
 
-#décompte div>span {
-  padding: 15px;
-  border-radius: 3px;
-  background: #2567EB;
-  display: inline-block;
+.point {
+  font-size: 5rem;
 }
 
-smalltext {
-  padding-top: 5px;
-  font-size: 16px;
+.haut {
+  padding: 50px;
+  border-top-color: red;
+}
+.bas {
+  padding: 50px;
+  border-bottom-color: red;
+}
+.gauche {
+  padding: 50px;
+  border-left-color: red;
+}
+.droite {
+  padding: 50px;
+  border-right-color: red;
 }
